@@ -1,11 +1,11 @@
 #include <ESP8266WiFi.h>
 #include<DHT.h>
-#define DHTPIN 2       // GPIO2 (D4 trên NodeMCU)
-#define DHTTYPE DHT11  // Chọn DHT11 hoặc DHT22 nếu bạn dùng loại khác
+#define DHTPIN 2       
+#define DHTTYPE DHT11  
 
 DHT dht(DHTPIN, DHTTYPE);
 
-const char* ssid = "134628";         // Thay bằng WiFi của bạn
+const char* ssid = "134628";        
 const char* password = "tung310304";
 const char* host = "api.thingspeak.com";
 const char* apiKey = "N4WWV4RORELXD1OV";
